@@ -13,3 +13,11 @@ for num in nums:
         output += "x"
     print(output)
 
+nums = [2, 4, 5, 1, 8, 10, 5, 3]
+
+max = nums[0]
+for num in nums:
+    if num > max:
+        max = num
+print(max)
+
