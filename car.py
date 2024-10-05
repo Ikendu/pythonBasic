@@ -5,7 +5,8 @@ help = False
 while True:
     operate = (input("Select operations: (start, stop, speed, quit, help) ")).lower()
     if operate == "quit":
-        print("Operation stopped")
+        print("Car is stopping... Operations stopped")
+        print("Thank you for using our service")
         break
     elif operate == "start" and start == False:
         start = True
