@@ -44,3 +44,16 @@ i = 1
 while i < 10:
     print(i * 'o')
     i += 2
+
+guessNum = 5
+guess_limit = 4
+guessCount = 0
+
+while guessCount <guess_limit:
+    checker = input("Guess Number: ")
+    if int(checker) == guessNum:
+        print("You won!")
+        break
+    guessCount += 1
+else:
+    print("You lost")    
