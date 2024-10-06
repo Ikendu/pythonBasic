@@ -11,14 +11,28 @@ numWords = {
     '9': 'Nine'
 }
 
+emoji = {
+    '(:': '😊',
+    ':)': '😊',
+    ':(': '😌',
+    '):': '😌',
+}
 
-userInput = input("Enter some figure: ")
-outPut = ""
+message = input("Enter a message: ")
+message = message.split(" ")
+
+output = ""
+for ch in message:
+    output += emoji.get(ch, ch) + " "
+print(output)
+
+# userInput = input("Enter some figure: ")
+# outPut = ""
 
 # More effective
-for num in userInput:
-    outPut += numWords.get(num, "!") + " "
-print(outPut + " was entered")
+# for num in userInput:
+#     outPut += numWords.get(num, "!") + " "
+# print(outPut + " was entered")
     
 
 # Long and repetitive
