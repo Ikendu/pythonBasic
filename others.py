@@ -29,3 +29,10 @@ for num in nums:
         unique.append(num)
 print(unique)
 
+# unpacking
+numbers = [20, 10, 5, 3, 60]
+x, y, z, a, b = numbers
+print(a)
+
+# Arrays, Tuple and Dictionary is closely related
+
