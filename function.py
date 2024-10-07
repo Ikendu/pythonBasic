@@ -10,7 +10,6 @@ def numWord(userInput):
     output = ""
     for ch in userInput:
         output += emoji.get(ch, ch) + " "
-        
     return output
 
 
