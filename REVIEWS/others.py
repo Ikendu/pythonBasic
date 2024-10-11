@@ -42,11 +42,37 @@
 # print(a)
 
 # String, Arrays, Tuple and Dictionary is closely related
+# word = "Igwekanma the God of my grand father will make me wealthy and powerful"
+
+# if "my" not in word:
+#     print("Present")
+# else:
+#     print("Its present")
+
+# print(word[:])
+
+b = "Hello, World!"
+# print(b[-5:-2])
+# print(word.upper())
+# print(word.split(" "))
+# print (f"I said {word} {5.0:.2f}")
 word = "Igwekanma the God of my grand father will make me wealthy and powerful"
 
-if "my" in word:
-    print("Present")
+print(15/2)
 
+# Collection Data types in python are
+# list
+# set
+# tuple
+# dictionary
 
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 
+thislist[3:5] = ["mango", "cashew", "tomatoes"]
+thislist.insert(3, "pinepple")
+thislist.sort()
+print(thislist)
 
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+print( list1 + list2)
