@@ -76,12 +76,25 @@ print(15/2)
 # list1 = ["a", "b", "c"]
 # list2 = [1, 2, 3]
 # print( list1 + list2)
-thisset = {"apple", "banana", "cherry", True, 1, 2}
+# thisset = {"apple", "banana", "cherry", True, 1, 2}
 
-print(type(thisset))
+# print(type(thisset))
 
-set1 = {"a", "b", "c", 4}
-set2 = {1, 2, 3}
+# set1 = {"a", "b", "c", 4}
+# set2 = {1, 2, 3}
 
-set3 = set1.union(set2)
-print(set3)
+# set3 = set1.union(set2)
+# print(set3)
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "red"
+
+print(x) #after the change
