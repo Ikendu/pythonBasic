@@ -85,16 +85,23 @@ print(15/2)
 
 # set3 = set1.union(set2)
 # print(set3)
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.items()
+
+# print(x) #before the change
+
+# car["color"] = "red"
+
+# print(x) #after the change
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
 }
-
-x = car.keys()
-
-print(x) #before the change
-
-car["color"] = "red"
-
-print(x) #after the change
+thisdict.update({"color": "red"})
+print(thisdict)
