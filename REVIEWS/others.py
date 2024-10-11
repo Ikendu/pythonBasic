@@ -66,13 +66,22 @@ print(15/2)
 # tuple
 # dictionary
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 
-thislist[3:5] = ["mango", "cashew", "tomatoes"]
-thislist.insert(3, "pinepple")
-thislist.sort()
-print(thislist)
+# thislist[3:5] = ["mango", "cashew", "tomatoes"]
+# thislist.insert(3, "pinepple")
+# thislist.sort()
+# print(thislist)
 
-list1 = ["a", "b", "c"]
-list2 = [1, 2, 3]
-print( list1 + list2)
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3]
+# print( list1 + list2)
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+
+print(type(thisset))
+
+set1 = {"a", "b", "c", 4}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+print(set3)
