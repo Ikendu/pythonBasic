@@ -98,10 +98,11 @@ print(15/2)
 # car["color"] = "red"
 
 # print(x) #after the change
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-thisdict.update({"color": "red"})
-print(thisdict)
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.update({"color": "red"})
+# print(thisdict)
+print("that good") if "brand" in thisdict else print("not good")
