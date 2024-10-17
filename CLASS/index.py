@@ -1,1 +1,1 @@
-print("Inside class Hello world")
+print("Hello world")
