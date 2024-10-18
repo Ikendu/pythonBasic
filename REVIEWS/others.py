@@ -105,4 +105,4 @@ print(15/2)
 # }
 # thisdict.update({"color": "red"})
 # print(thisdict)
-print("that good") if "brand" in thisdict else print("not good")
+# print("that good") if "brand" in thisdict else print("not good")
