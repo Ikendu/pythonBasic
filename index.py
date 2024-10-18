@@ -76,4 +76,7 @@ print(num)
 
 # The number of characters here is 113
 
+print("Hello world")
+number = 200
+name = "David"
 
