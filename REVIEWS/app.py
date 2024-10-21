@@ -59,4 +59,13 @@ import converterModule
 # else:
 #     print("You lost")    
 
-print(converterModule.findMax([10, 39, 9, 4, 7]))
+# print(converterModule.findMax([10, 39, 9, 4, 7]))
+
+from pathlib import Path
+
+path = Path("reviews/pythonModuls")
+
+saves = path.glob("*")
+for ch in saves:
+    print(ch)
+print(saves)
