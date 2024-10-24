@@ -1,4 +1,7 @@
 intro = "Hello World II"
+print(intro)
+intro = "Hello Python Instructor"
+print(intro)
 
 # this line is to print out hello world
 print(len(intro)) # this line prints 
@@ -78,5 +81,34 @@ print(num)
 
 print("Hello world")
 number = 200
-name = "David"
 
+names = ["David", "Excellent", 'Loveth', 100, 40, 5] #From database
+
+data = ["Ikenna", "Ada", 1000, 85, "Okolo"]
+
+
+print(names)
+
+# names[3:4] = [300, 100]
+# names.extend(data)
+# names.pop()
+
+print(names)
+# print(names[1])
+
+# for name in names:
+#     name = str(name)
+#     name = name.upper()
+#     print(name)    
+#     print("xyz")
+#     print('.........')
+
+for x in names:
+    if isinstance(x, (str)):
+        x = x.upper()
+
+    print(x)
+    print("xyz")
+    print('.........')
+
+# print(names[2:5])
