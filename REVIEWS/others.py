@@ -111,3 +111,41 @@ names = ["David", "Excellent", 'Loveth', "Ijeoma", "Onyinye"] #From database
 
 newNames = [name for name in names if name != "Ijeoma"]
 print(newNames)
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+
+[a, b, *c] = thislist
+print(c[0] + " Unpacked")
+
+list2 = list(thislist)
+list2.extend(thislist)
+print(thislist)
+print(list2)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+mytuple = ("apple", "banana", "cherry")
+print(type(mytuple[0]))
+
+x = ("apple", "banana", "cherry")
+x = list(x)
+x[1] = "kiwi"
+x = tuple(x)
+
+print(x)
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange","palm")
+thistuple += y
+
+# del thistuple
+
+print(thistuple)
+
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)

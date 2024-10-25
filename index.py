@@ -1,6 +1,3 @@
-
-
-
 # intro = "Hello World II"
 # print(intro)
 # intro = "Hello Python Instructor"
@@ -83,7 +80,13 @@
 # The number of characters here is 113
 
 # print("Hello world")
+# number = 200
 
+# names = ["David", "Excellent", 'Loveth', 100, 40, 5] #From database
+
+# data = ["Ikenna", "Ada", 1000, 85, "Okolo"]
+
+# print("Length " + str(len(data)))
 # print(names)
 
 # names[3:4] = [300, 100]
@@ -107,11 +110,48 @@
 #     print(x)
 #     print("xyz")
 #     print('.........')
+# num = 100
+
+# print(num)
+
+# num = num + 20 # this line is incrementing the num varaible
+
+# print(num)
+
+# # this line is a list of items
+# theList = ["orange", 'mango', 'banana', "gova", "cashwe"]
+
+# aList = list(fruit)
+
+# print(aList)
+# print(moreFruit)
+
+# some note 
+# more notes
+
+fruit1 = "mango"
+fruit2 = 'orange'
+num = "30"
+
+basket = ["mango", "orange", "gova", "cashew", "banana", "mango", "gova", "banana"]
+
+answer = 20 + 30 * 4 / 2
+
+# eating = basket[7]
+# nebour = basket[2:6]
+
+basket[1] = "book"
+
+basket[6] = "bread"
 
 
-names = ["David", "Excellent", 'Loveth', "Ijeoma", "Onyinye"] #From database
+print(num + 20 * 2)
+print(fruit1)
+print(answer)
+print(basket)
+# print(eating)
+# print(nebour)
 
-data = ["Ikenna", "Ada", 1000, 85, "Okolo"]
 
-print("Length " + str(len(data)))
+
 
