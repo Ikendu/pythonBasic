@@ -1,14 +1,17 @@
-intro = "Hello World II"
-print(intro)
-intro = "Hello Python Instructor"
-print(intro)
+
+
+
+# intro = "Hello World II"
+# print(intro)
+# intro = "Hello Python Instructor"
+# print(intro)
 
 # this line is to print out hello world
-print(len(intro)) # this line prints 
-print(intro)
-print(intro)
-print(intro)
-print(intro)
+# print(len(intro)) # this line prints 
+# print(intro)
+# print(intro)
+# print(intro)
+# print(intro)
 
 
 # age = input("Enter your age ")
@@ -22,18 +25,18 @@ print(intro)
 # print(finalResult)
 
 
-fullText = "today is " + "Friday"
-# print(fullText)
+# fullText = "today is " + "Friday"
+# # print(fullText)
 
-part1 = "I am coming"
-part2 = "today or tomorrow "
-part3 = 200
+# part1 = "I am coming"
+# part2 = "today or tomorrow "
+# part3 = 200
 
-fullSentence = part1 + " " + part2
+# fullSentence = part1 + " " + part2
 
-finalSen = fullSentence + str(part3)
+# finalSen = fullSentence + str(part3)
 
-print(finalSen)
+# print(finalSen)
 
 # print(part1 + part2)
 
@@ -70,30 +73,24 @@ print(finalSen)
 
 # print(4 < 2)
 
-num = 5
-num += 2
-num += 5
-num += 10
+# num = 5
+# num += 2
+# num += 5
+# num += 10
 
-print(num)
+# print(num)
 
 # The number of characters here is 113
 
-print("Hello world")
-number = 200
+# print("Hello world")
 
-names = ["David", "Excellent", 'Loveth', 100, 40, 5] #From database
-
-data = ["Ikenna", "Ada", 1000, 85, "Okolo"]
-
-
-print(names)
+# print(names)
 
 # names[3:4] = [300, 100]
 # names.extend(data)
 # names.pop()
 
-print(names)
+# print(names)
 # print(names[1])
 
 # for name in names:
@@ -103,12 +100,18 @@ print(names)
 #     print("xyz")
 #     print('.........')
 
-for x in names:
-    if isinstance(x, (str)):
-        x = x.upper()
+# for x in names:
+#     if isinstance(x, (str)):
+#         x = x.upper()
 
-    print(x)
-    print("xyz")
-    print('.........')
+#     print(x)
+#     print("xyz")
+#     print('.........')
 
-# print(names[2:5])
+
+names = ["David", "Excellent", 'Loveth', "Ijeoma", "Onyinye"] #From database
+
+data = ["Ikenna", "Ada", 1000, 85, "Okolo"]
+
+print("Length " + str(len(data)))
+

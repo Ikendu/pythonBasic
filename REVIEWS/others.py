@@ -106,3 +106,8 @@ print(15/2)
 # thisdict.update({"color": "red"})
 # print(thisdict)
 # print("that good") if "brand" in thisdict else print("not good")
+
+names = ["David", "Excellent", 'Loveth', "Ijeoma", "Onyinye"] #From database
+
+newNames = [name for name in names if name != "Ijeoma"]
+print(newNames)
