@@ -61,11 +61,22 @@ import converterModule
 
 # print(converterModule.findMax([10, 39, 9, 4, 7]))
 
-from pathlib import Path
+# from pathlib import Path
 
-path = Path("reviews/pythonModuls")
+# path = Path("reviews/pythonModuls")
 
-saves = path.glob("*")
-for ch in saves:
-    print(ch)
-print(saves)
+# saves = path.glob("*")
+# for ch in saves:
+#     print(ch)
+# print(saves)
+
+def add(*num):
+    return num
+
+print(add(20, 40, 50))
+
+def addNum(**names):
+    print(f"my name is {names['first']} {names['last']}")
+
+addNum(first="Victor", last="Amah")
+
