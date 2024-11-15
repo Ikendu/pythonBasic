@@ -29,3 +29,24 @@ def addition(num1=10, num2=20):
     print(result)
 
 addition(40, 20)
+
+def multiply(num1, num2):
+    print(num1 * num2)
+    return num1 * num2
+
+final = multiply(20, 40) + 100
+print(final)
+
+divider = lambda  a, b : a/b
+
+myResult =  divider(100, 10) + 40
+
+print(int(myResult))
+
+def added(a):
+    return lambda b: a + b
+
+final = added(5)
+print(final(10))
+
+
