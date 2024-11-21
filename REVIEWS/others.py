@@ -167,3 +167,26 @@ import platform
 
 x = platform.system()
 print(x)
+
+import datetime
+
+x = datetime.datetime.now()
+
+print(x.day)
+print(x.strftime("%A"))
+
+import json
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+print(json.dumps(x, indent=3, separators=(". ", " = "), sort_keys=True))
