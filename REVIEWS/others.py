@@ -149,3 +149,21 @@ fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 print(green)
 print(tropic)
 print(red)
+
+nums3 = {"first": 1000, "second": 2000, "third": 3000}
+iterate = iter(nums3)
+print(next(iterate))
+print(next(iterate))
+
+def myfunc():
+  global x
+  x = 300
+
+myfunc()
+
+print(x)
+
+import platform
+
+x = platform.system()
+print(x)
