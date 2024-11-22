@@ -108,6 +108,7 @@ print(num + num2)
 print(yz)
 
 # import  function
+import json
 import index
 from function import multiply
 import datetime
@@ -120,5 +121,55 @@ print(index.items[0])
 time = datetime.datetime.now()
 print(time.second)
 
+mini = min(30, 60, 5)
+print(mini)
 
+powa = pow(10, 3)
+print(powa)
+
+import math
+
+square = math.sqrt(100)
+print(square)
+ceiling = math.floor(20.6)
+print(ceiling)
+print(math.pi * 21)
+
+userDetails = '{"name": "Obinna", "age": 24, "height": 6}'
+userConvert = json.loads(userDetails)
+print(userConvert["name"])
+
+# converted = json.dumps(userDetails)
+# print(converted)
+
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+    {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+# print(json.dumps(x,  indent=3, separators=(", ", ":")))
+
+import re
+
+txt = "The rain in spain fain main"
+discovered = re.search('ai', txt)
+print(discovered.group())
+
+lister = re.split(" ", txt)
+print(lister)
+
+threeDots = re.sub('a', "9", txt)
+print(threeDots)
+
+import camelcase
+
+camel = camelcase.CamelCase()
+print(camel.hump(txt))
 
