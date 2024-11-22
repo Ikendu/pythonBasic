@@ -197,3 +197,18 @@ txt = "The rain in Spain"
 x = re.search("a", txt)
 
 print(x.group())
+
+# import camelcase
+# c = camelcase.CamelCase()
+
+# x = "how are u doing"
+# print(c.hump(x))
+
+
+txt = f"The price is {95:.2f} dollars"
+print(txt)
+
+price = 5900000000
+txt = f"The price is {price:,} dollars"
+print(txt)
+
