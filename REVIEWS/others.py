@@ -190,3 +190,10 @@ x = {
 }
 
 print(json.dumps(x, indent=3, separators=(". ", " = "), sort_keys=True))
+
+import re
+
+txt = "The rain in Spain"
+x = re.search("a", txt)
+
+print(x.group())
