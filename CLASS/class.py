@@ -173,3 +173,31 @@ import camelcase
 camel = camelcase.CamelCase()
 print(camel.hump(txt))
 
+try:
+  #  result = 20/0
+   print(result10)
+except ZeroDivisionError:
+   print("Cannot divide by zero")
+except NameError:
+   print("Cannot access unknown Name")
+except:   
+   print("An error occored")
+
+
+
+print("The end of my code")
+print("The end of my code")
+print("The end of my code")  
+print("The end of my code")
+
+f = open("file.txt", "a")
+f.write(" new write up add")
+f.close()
+
+f = open("file.txt")
+print(f.read())
+
+import os
+
+# os.remove("file.txt")
+
