@@ -13,6 +13,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name="Students",
             fields=[
+                
                 (
                     "id",
                     models.BigAutoField(
