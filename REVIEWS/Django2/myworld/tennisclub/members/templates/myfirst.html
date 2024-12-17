@@ -6,7 +6,12 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>My Python world</h1>
+    <h1>My Python world, ML is next</h1>
     <p>python is the bedrock of the powerful AI and Machine learning world</p>
+    <ul>
+      {% for x in mymembers %}
+      <li><a href="details/{{x.id}}">{{x.firstname}} {{x.lastname}}</a></li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
