@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Member detals</title>
-  </head>
-  <body>
-    <h2>{{mymember.firstname}} {{mymember.lastname}}</h2>
-    <p>{{mymember.phone}}</p>
-    <p>{{mymember.date}}</p>
+{% extends 'master.html'%} {% block title %} {{mymember.firstname}}
+{{mymember.lastname}} {% endblock %} {% block content %}
+<h2>{{mymember.firstname}} {{mymember.lastname}}</h2>
+<p>{{mymember.phone}}</p>
+<p>{{mymember.date}}</p>
 
-    <a href="/members/">All Members</a>
-  </body>
-</html>
+<a href="/members/">All Members</a>
+{% endblock %}

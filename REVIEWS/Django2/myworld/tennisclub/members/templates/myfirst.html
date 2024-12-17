@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>My Python world, ML is next</h1>
-    <p>python is the bedrock of the powerful AI and Machine learning world</p>
-    <ul>
-      {% for x in mymembers %}
-      <li><a href="details/{{x.id}}">{{x.firstname}} {{x.lastname}}</a></li>
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+{% extends "master.html" %} {% block title %} My tennis club - List of all
+Members {% endblock %} {% block content %}
+
+<h1>My Python world, ML is next</h1>
+<p>python is the bedrock of the powerful AI and Machine learning world</p>
+<a href="/">Home</a>
+<ul>
+  {% for x in mymembers %}
+  <li><a href="details/{{x.id}}">{{x.firstname}} {{x.lastname}}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
