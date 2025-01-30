@@ -10,7 +10,8 @@ myCarYear = 2015
 numStr = "2030"
 myNum = 34.5
 
-sum = myCarYear + myNum
+sum = str(myCarYear) + numStr
+sum1 = myCarYear + int(numStr)
 
 
 
@@ -23,5 +24,6 @@ print(myCar)
 print(myCarYear)
 print(numStr)
 print(sum)
+print(sum1)
 
 # print(myPro)
