@@ -92,11 +92,11 @@ thislist = ["apple", "banana", "cherry", "Mangoes"]
 newList = []
 print(newList)
 
-# for x in thislist:
-#     if 'e' in x:
-#         print(x)
-#     else:
-#         print("No e in " + x)    
+for x in thislist:
+    if 'e' in x:
+        print(x)
+    else:
+        print("No e in " + x)    
 
 for x in thislist:
     if 'a' in x:
