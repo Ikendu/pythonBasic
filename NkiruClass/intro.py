@@ -81,9 +81,9 @@ tropical = ["mango", "pineapple", "papaya"]
 # thislist[0] = "Mellon"
 # thislist[1] = "Orange"
 # thislist.append("Pineapple")
-# thislist.append("Grapes")
-# thislist.insert(3, "Strawberry")
-# tropical.extend(thislist)
+thislist.append("Grapes")
+thislist.insert(3, "Strawberry")
+tropical.extend(thislist)
 # thislist.pop(2)
 # thislist.clear()
 # print(thislist)
@@ -104,12 +104,4 @@ for x in thislist:
 
 print(newList)  
 # newList =[ x for x in thislist if 'a' in x]      
-
-
-
-
-
-
-
-
 # print(myPro)
