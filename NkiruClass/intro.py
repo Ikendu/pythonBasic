@@ -90,18 +90,83 @@ tropical.extend(thislist)
 
 thislist = ["apple", "banana", "cherry", "Mangoes"]
 newList = []
-print(newList)
+# print(newList)
 
-for x in thislist:
-    if 'e' in x:
-        print(x)
-    else:
-        print("No e in " + x)    
+# for x in thislist:
+#     if 'e' in x:
+#         print(x)
+#     else:
+#         # print("No e in " + x)    
 
-for x in thislist:
-    if 'a' in x:
-        newList.append(x)
+# for x in thislist:
+#     if 'a' in x:
+#         newList.append(x)
 
-print(newList)  
+# print(newList)  
 # newList =[ x for x in thislist if 'a' in x]      
 # print(myPro)
+
+serverItems = ("appleii", "bananaii", "cherryii", "orangeii", "kiwiii", "melonii", "mangoii", "orangeii", "kiwiii", "melonii", "mangoii")
+# print(thistuple[-2])
+# print(len(thistuple))
+
+myNewList = list(serverItems)
+
+print(myNewList)
+
+myNewList.append('Kokonut')
+myNewList.append('Amalala')
+
+print(myNewList)
+
+myNewTuppleItems = tuple(myNewList)
+
+print(myNewTuppleItems)
+
+thislist = ["apple", "banana", "cherry", "Mangoes"]
+
+for x in myNewList:
+    thislist.append(x)
+
+
+print(thislist)
+
+# copyList = []
+# copyList = thislist.copy()
+
+# print("From COPYLIST", copyList)
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+print(serverItems.count("orangeii"))
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.discard("bananas")
+
+print(thisset)
+
+mySet = {"apple", "banana", "cherry", "Mangoes"}
+mySet1 = {"apple", "banana", "cherry", "Mangoes", "MoiMoi"}
+mySet.add("newItem")
+diff = mySet1.difference(mySet)
+print(diff)
+
+myList = ["apple", "banana", "cherry", "Mangoes"]
+myDict = {
+    "first":"apple", 
+    "sec": {"one":"banana", "two": "Palm", "three": {}}, 
+    "third": ["red", "white", "blue", ["hello", "hi",'come']], 
+    "fourth":"Mangoes"
+    }
+# myList[1] = "Orange"
+# myDict.update({"sec":"Orange"})
+# myDict["sec"] = "Orangessss"
+
+print(myList[0])
+print(myDict.get("sesc", "Please the prop is not avaible"))
+print(myDict["sec"]["one"])
+
