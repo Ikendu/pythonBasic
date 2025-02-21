@@ -1,3 +1,5 @@
+
+
 # print("Hello New to Coding")
 # print("I am learning Python")
 
@@ -309,5 +311,50 @@ cake4 = Cake("Elukiti", "Pink White", "Star")
 
 # print(cake4)
 
-cake1 = {"name": "Bean", "shape": "Circle", "color": "White"}
-cake1 = {"name": "Bean", "shape": "Circle", "color": "White"}
+# cake1 = {"name": "Bean", "shape": "Circle", "color": "White"}
+# cake1 = {"name": "Bean", "shape": "Circle", "color": "White"}
+
+obj = {"name": "Bean", "shape": "Circle", "color": "White"}
+# obj = iter(obj)
+# print(next(obj))
+# print(next(obj))
+# print(next(obj))
+
+# import intro2_this_long_name as file
+
+
+# print(file.sum(20, 30))
+
+# print(file.mult(20, 30))
+
+# file.mylist.append("wealth")
+# print(file.mylist)
+
+# import platform
+
+# plat = platform.architecture()
+
+# print(plat)
+
+# import datetime
+
+# x = datetime.datetime(2020, 5, 17)
+# print(f"""{x.year}
+# {x.month}
+# {x.day}""")
+
+# print(f"Copyright 1999-{datetime.datetime.now().year}")
+
+# import math
+
+# mymath = math.floor(1.9)
+
+# print(mymath)
+
+import json
+
+x =  '{ "name":"John", "age":30, "city":"New York"}'
+x = json.loads(x)
+x["age"] = 18
+
+print(x)
